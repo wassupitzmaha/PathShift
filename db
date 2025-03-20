@@ -1,0 +1,5 @@
+SELECT 
+  COUNT(*) FILTER (WHERE "field_of_study" LIKE '%Mechanical Engineering%') AS total_me,
+  COUNT(*) FILTER (WHERE "field_of_study" LIKE '%Mechanical Engineering%' 
+                   AND "current_occupation" = 'Mechanical Engineer') AS actual_me
+FROM career_main_info;
