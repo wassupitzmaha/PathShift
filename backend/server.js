@@ -43,33 +43,11 @@ requestHandler.get("/api/v1/MechanicalEngineers", async (req, res) => {
   }
 });
 
-requestHandler.get("/api/v1/MechanicalEngineers", async (req, res) => {
-  try {
-    const dbResponse = await db.query(`
-      SELECT 
-        COUNT(*) FILTER (WHERE field_of_study LIKE '%Mechanical Engineering%') AS total_me,
-        COUNT(*) FILTER (WHERE field_of_study LIKE '%Mechanical Engineering%' 
-                         AND current_occupation = 'Mechanical Engineer') AS actual_me
-      FROM career_main_info
-    `);
-    
-    console.log(dbResponse);
-    res.json(dbResponse.rows[0]);
-  } catch (error) {
-    console.error("Error fetching Mechanical Engineers data:", error);
-    res.status(404).send("Internal Server Error");
-  }
-});
-
-
-
 
   // GET template
 requestHandler.get("/api/v1/get-template", (req, res) => {
   res.send("Hello World!");
 });
-
-
 
 // Starting our http server and listening for requests!
 requestHandler.listen(port, () => {
