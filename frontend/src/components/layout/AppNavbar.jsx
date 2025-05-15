@@ -54,7 +54,7 @@ const AppNavbar = () => {
             </NavDropdown>
             
             {/* This links to the "/about" route in App.js */}
-            <Nav.Link as={NavLink} to="/about">
+            <Nav.Link as={NavLink} to="/aboutme">
               About Me
             </Nav.Link>
           </Nav>

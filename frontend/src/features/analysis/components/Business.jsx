@@ -9,7 +9,7 @@ const TimeTrends = () => {
           Total Business Majors: 3921<br />
 
           Actual Business Analyst: 3858<br />
-          Out of 3921, only 3858 end up becoming doctors
+          Out of 3921, only 3858 end up becoming business analysts
         </strong>
       </p>
       <Waffle />

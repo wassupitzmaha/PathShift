@@ -1,71 +1,30 @@
 import React from "react";
 
-
 const AboutMe = () => {
   return (
-    <div>
-      <div>
-        <h1>About Me!</h1>
-        <p>
-          My name is Asim Williams. I am a Technology Leader, Explorer,
-          Educator, and Musician from the city of Detroit.
-          <br />
-          <br />
-          My mission is to be a part of teams that invent technology and music,
-          through entrepreneurship, that universally improves fundamental
-          aspects of life.
-          <br />
-          <br />
-          I aspire to leave a legacy where it's said that "Asim helped the world
-          become a place where it’s residents thrive and prosper through
-          technology innovation and entrepreneurship by helping us":
-          <br />
-          <br />
-          Build the cultural infrastructure necessary for our youth to become
-          technology leaders at all levels of abstraction. From using
-          applications to be content creators, to writing algorithms that enable
-          efficient student transportation, to creating simulations for H2 IC
-          engines. By developing the educational pathways and programs necessary
-          to achieve excellence in technology; Instead of being pacified by
-          exposure to technology 🥇
-          <br />
-          <br />
-          Empowering our students to:
-          <br />
-          1. Get paid 🤑
-          <br />
-          2. Get ready to succeed academically in the most competitive and
-          rigorous fields (STEM) 🎓
-          <br />
-          3. Get the runway necessary to master the skills needed to build and
-          have ownership of their entrepreneurial ideas for making the world a
-          better place ❤️‍🩹🌍
-          <br />
-          <br />
-          Optimize Detroit's strategic decisions, by creating ethical data
-          systems that activate the past, understand the present and prepare us
-          for the future 🔮
-          <br />
-          <br />
-          Create mobility infrastructure that sustainably facilitates equitable
-          and effective access to resources and opportunities 🚇
-          <br />
-          <br />
-          Become a global epicenter of arts and culture by patronizing art and
-          music production 🎭
-          <br />
-          <br />
-          My passion is fueled most intensely by this belief: For centuries
-          African American people have been systematically excluded from seeing,
-          accessing, being the keeper of and achieving deep understanding of the
-          most transformative manifestation of humanities ability to adapt to
-          its surroundings, control its circumstances and augment its abilities.
-          That transformative manifestation being Technology. It is a human
-          rights crisis that has ubiquitous and cascading negative social,
-          economic and political consequences.
-        </p>
-      </div>
-
+    <div className="p-6 max-w-3xl mx-auto text-lg leading-relaxed">
+      <h1 className="text-4xl font-bold mb-6">About Me!</h1>
+      <p>
+        My name is Maha Uddin — I’m a proud Detroiter, technologist, and student dedicated to building a more inclusive future in STEM.
+        <br /><br />
+        With a 4.0 GPA in the Computer Information Systems curriculum at Cass Tech, I’ve combined academic rigor with real-world innovation. I serve as the President of SkillsUSA, leading over 100 students in technical and leadership development. I’ve represented Michigan at the Business Professionals of America National Leadership Conference and earned bronze in Internetworking while representing Detroit.
+        <br /><br />
+        I’m a two-time 1st Place Hackathon Champion at Accelerate4KIDS, a Simulated Stock Market winner at Ally Financial, and recently placed 3rd in the 2025 Inspire Change Student Business Challenge with the Detroit Lions, where I pitched ideas to enhance fan engagement.
+        <br /><br />
+        My experiences include serving as a Cybersecurity Analyst at Little Caesars Enterprises, researching post-COVID influenza trends for biomedical studies, interning as a Student Engineer at Google Code Next, and soon joining JustAir as a Software Developer to help improve environmental health outcomes through technology.
+        <br /><br />
+        Outside of tech, I’m a featured fashion designer through Big Sean’s nonprofit, a student announcer since 2022, and an active member of Girls Who Code, Get-IT Girls, and Robotics.
+        <br /><br />
+        <strong>My mission is to:</strong>
+        <ul className="list-disc list-inside mt-2">
+          <li>Break down systemic barriers in STEM by championing equity and representation.</li>
+          <li>Use technology to build tools that help communities thrive — especially those historically excluded from innovation.</li>
+          <li>Turn Detroit into a national model for youth-led tech, culture, and economic growth.</li>
+          <li>Inspire students to lead, create, and own their futures through innovation, entrepreneurship, and excellence.</li>
+        </ul>
+        <br />
+        Tech is my tool. Justice is my goal. I’m here to build a world where access, opportunity, and creativity are limitless — no matter your gender or beginning.
+      </p>
     </div>
   );
 };

@@ -10,10 +10,6 @@ import AboutMe from './features/about-me/components/AboutMe.jsx';
 import SummaryAnalysis from './features/analysis/components/SummaryAnalysis.jsx'
 import Home from './features/analysis/components/Home.jsx'
 
-
-
-
-
 function App() {
   return (
     <BrowserRouter>

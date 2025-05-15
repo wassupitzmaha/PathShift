@@ -6,22 +6,23 @@ import { Chart as ChartJS, BarElement, CategoryScale, LinearScale, Tooltip, Lege
 ChartJS.register(BarElement, CategoryScale, LinearScale, Tooltip, Legend);
 
 const data = {
-  labels: "1", 
+  labels: ['Mechanical Engineering', 'Business', 'Education', 'Medicine', 'Biology'],
   datasets: [
     {
-      label: "Pursued a professional job in medicine",
-      data: [3888],
-      backgroundColor: "blue"
+      label: "Pursued a professional job in their field",
+      data: [373, 3858, 3886, 3888, 3774],
+      backgroundColor: "rgba(218, 136, 128)"
     },
     {
-      label: "Majored in Medicine",
-      data: [3949],
-      backgroundColor: "green"
+      label: "Majored in that field of study",
+      data: [3875, 3821, 3896, 3949, 3921],
+      backgroundColor: "rgba(175, 122, 197)"
     },
 
   ],
 
 };
+
 
 
 const options = {
