@@ -19,11 +19,11 @@ function getWaffleData(values, colors, totalSquares = 100) {
 }
 
 const WaffleChart = ({
-  values = [3858, 3921],
+  values = [354, 3921],
   colors = ["DarkKhaki", "DarkOliveGreen"],
   labels = [
     "People who actually became Analysts",
-    "People who majored in Biology"
+    "People who majored in Business"
   ],
   rows = 10,
   columns = 10,
