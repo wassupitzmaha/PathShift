@@ -20,8 +20,8 @@ const WaffleChart = ({
   values = [0, 0], // default to zeros
   colors = ["DarkKhaki", "DarkOliveGreen"],
   labels = [
-    "People who actually became ",
-    "People who majored in Biology"
+    "People who actually became Analysts",
+    "People who majored in Business"
   ],
   rows = 10,
   columns = 10,

@@ -26,13 +26,13 @@ const Medicine = () => {
           datasets: [
             {
               label: "Pursued a professional job in medicine",
-              data: [data?.currently_doctors],
-              backgroundColor: "rgba(54, 162, 235, 0.8)"
+              data: [data?.currently_medicine],
+              backgroundColor: "Brown"
             },
             {
               label: "Majored in Medicine",
               data: [data?.major_medicine],
-              backgroundColor: "rgba(75, 192, 192, 0.8)"
+              backgroundColor: "BurlyWood"
             }
           ]
         }}
