@@ -1,20 +1,29 @@
 import React from 'react';
-import Pie from "./charts/PieChart";
+import Pie from "./charts/MechanicalEngineeringChart";
+import { useFetch } from '../hooks/useFetch';
+
 
 const MechanicalEngineering = () => {
+  const { data, loading, error } = useFetch('/api/v1/MechanicalEngineers');
+
+  if (loading) return <div>Loading engineering data...</div>;
+  if (error) return <div>Error: {error.message || String(error)}</div>;
+  
+
   return (
     <div>
       <h1>Mechanical Engineering</h1>
       <p>
         <strong>
-          Based on a chosen dataset, how many people out of a specific group studying Mechanical Engineering actually pursue a career in that field?
-          This is not a representation of a person's capabilities but rather reflects a dataset. 
+          Based on a chosen dataset, {data?.currently_mechanical_engineers} out of {data?.mechanical_engineering_graduates}...
         </strong>
       </p>
-      <Pie />
+      <Pie 
+        sliceA={data?.currently_mechanical_engineers}
+        sliceB={data?.mechanical_engineering_graduates}
+      />
     </div>
   );
 };
-
 
 export default MechanicalEngineering;

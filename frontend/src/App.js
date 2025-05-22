@@ -10,11 +10,6 @@ import AboutMe from './features/about-me/components/AboutMe.jsx';
 import SummaryAnalysis from './features/analysis/components/SummaryAnalysis.jsx'
 import Home from './features/analysis/components/Home.jsx'
 
-// Basic fetch request
-fetch("/api/v1/MechanicalEngineers")
-  .then((response) => response.json())  // Convert response to JSON
-  .then((data) => console.log(data))    // Use the data
-  .catch((error) => console.error("Error:", error));  // Handle errors
 
 
 function App() {
