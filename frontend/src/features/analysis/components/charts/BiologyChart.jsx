@@ -1,14 +1,12 @@
+// features/analysis/components/charts/BiologyChart.jsx
 import React from "react";
 
-// Helper to generate the grid array
+
 function getWaffleData(values, colors, totalSquares = 100) {
   const total = values.reduce((a, b) => a + b, 0);
   const squares = values.map(val => Math.round((val / total) * totalSquares));
-  // Adjust for rounding errors
   let sum = squares.reduce((a, b) => a + b, 0);
   squares[squares.length - 1] += totalSquares - sum;
-
-  // Build the squares array
   let grid = [];
   squares.forEach((count, idx) => {
     for (let i = 0; i < count; i++) {
@@ -19,7 +17,7 @@ function getWaffleData(values, colors, totalSquares = 100) {
 }
 
 const WaffleChart = ({
-  values = [397, 3921],
+  values = [0, 0], // default to zeros
   colors = ["DarkKhaki", "DarkOliveGreen"],
   labels = [
     "People who actually became Biologists",
@@ -27,8 +25,8 @@ const WaffleChart = ({
   ],
   rows = 10,
   columns = 10,
-  size = 20, // pixel size of each square
-  gap = 2    // pixel gap between squares
+  size = 20,
+  gap = 2
 }) => {
   const grid = getWaffleData(values, colors, rows * columns);
 
@@ -76,6 +74,3 @@ const WaffleChart = ({
 };
 
 export default WaffleChart;
-
-
-
