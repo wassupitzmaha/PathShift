@@ -86,16 +86,37 @@ Users can view textual career analysis for 5 different majors.
 
 ### Screen Archetypes
 
-* Recital View Controller
-* File Selection
+- Home View
+ → Summary of purpose, choose a major
+
+
+- Major Analysis Page
+ → Textual summary and different charts/visualizations
+
+
+- About Me Page
+ → Project context and author info
+
+
+- Navigation Bar
+ → Buttons linking to each major’s analysis
+
 
 ### Navigation
 
 **Flow Navigation** (Screen to Screen)
 
-* Recital View Controller => File Selection
+- Home → Navigation Bar → Choose from dropdown whatever analysis your heart desires
 
-* File Selection => Recital View Controller
+
+- Home → Navigation Bar → About Me
+
+
+- Navigation Bar → Any View
+
+
+- Analysis → Home
+
 
 ## Wireframes
 <img src="./pictures/wireframe.png" width=600>
@@ -105,9 +126,9 @@ Users can view textual career analysis for 5 different majors.
 
 | Property | Type | Description |
 | --- | --- | --- |
-| AudioFile | File | File of the audio selected by the user |
-| AudioSpeed | Float | Speed of the audio playback set by user |
-| AudioPitch | Float | Pitch/Key of the audio algorithmically analyzed and presented to the user in real time |
+| FieldOfStudy | Text | User-selected academic major |
+| CurrentOccupation | Text | Associated career path|
+| CareerMatch | Boolean | Whether the occupation matches the field of study |
 | FilterFrequency | Float | Frequency user wants to hear |
 | FilterWidth | Float | Width of bandwidth filter |
 
