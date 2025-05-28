@@ -129,11 +129,11 @@ Users can view textual career analysis for 5 different majors.
 | FieldOfStudy | Text | User-selected academic major |
 | CurrentOccupation | Text | Associated career path|
 | CareerMatch | Boolean | Whether the occupation matches the field of study |
-| FilterFrequency | Float | Frequency user wants to hear |
-| FilterWidth | Float | Width of bandwidth filter |
+| Count | Integer | Number of individuals for that major-occupation pair |
 
 ### Networking
-N/A
+- API Endpoint: /api/v1/:major
+ → Returns career match data for a selected major
 
 ## Video Walkthrough
 ### Playback - Use audio player to playback file.
@@ -159,3 +159,21 @@ N/A
 <a href="https://imgflip.com/gif/3x5v89"><img src="https://i.imgflip.com/3x5v89.gif" title=""/></a>
 
 <a href="https://imgflip.com/gif/3xk9j0"><img src="https://i.imgflip.com/3xk9j0.gif" title=""/></a>
+
+
+##UI Progress
+
+ - Home layout created with buttons for majors
+
+
+ - React Router navigation between views
+
+
+- Different charts implemented using Chart.js, except for waffle chart which I had to manually code.
+
+
+- PostgreSQL schema loaded with cleaned CSV dataset
+
+
+- Express API endpoints return filtered analysis
+ - Styling improvements and optional features pending
