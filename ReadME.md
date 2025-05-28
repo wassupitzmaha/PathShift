@@ -138,8 +138,10 @@ Users can view textual career analysis for 5 different majors.
 ## Video Walkthrough
 ### Playback - Use audio player to playback file.
 <a href="https://imgflip.com/gif/40ksh3"><img src="https://i.imgflip.com/40ksh3.gif" title=""/></a>
-### Transcription - View audio note values in real time.
-<a href="https://imgflip.com/gif/40ksvm"><img src="https://i.imgflip.com/40ksvm.gif" title=""/></a>
+### Homepage: View the purpose and details of the project
+
+<img src="./pictures/homepage.png" width=600>
+
 ### Speed Change - Change speed of audio from .25 to 2 times the original speed.
 <a href="https://imgflip.com/gif/40ktcw"><img src="https://i.imgflip.com/40ktcw.gif" title=""/></a>
 ### Bandwidth Filter - Filter desired frequencies.
