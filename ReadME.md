@@ -91,7 +91,7 @@ Customer Segments:
 * File Selection => Recital View Controller
 
 ## Wireframes
-<img src="../PathShift/pictures/wireframe.png" width=600>
+<img src="../pictures/wireframe.png" width=600>
 
 ## Schema 
 ### Models
