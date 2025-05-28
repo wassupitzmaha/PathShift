@@ -63,19 +63,26 @@ Customer Segments:
 
 
 ## Product Spec
+- Required Must-Have User Stories
+Users can view textual career analysis for 5 different majors.
+
+
+- Users can interact with buttons to select visualizations.
+
+ - Users can view different visualizations showing major-to-career alignment.
+
+
+- Users can read an "About Me" page explaining the creator and project.
+
+
+- Users can access this functionality through a clear navigation UI.
 
 ### User Stories (Required and Optional)
-**Required Must-have Stories**
-* [x] Playback - Use audio player to playback file.
-* [x] Transcription - View audio note values in real time.
-* [x] Speed Change - Change speed of audio from .25 to 2 times the original speed.
-* [x] Bandwidth Filter - Filter desired frequencies.
-* [x] Waveform View - View waveform of audio synchronized with playback.
-* [x] A/B Looping - Loop selected section of audio. 
-* [x] Pitch Shift - Shift pitch up or down up to 24 semi-tones 
+- User must select an analysis type before generating a visualization.
 
-**Optional Nice-to-have Stories**
-* [ ] User can save edited audio
+- If no selection is made, don't update the page to any analysis and keep user in the homepage. 
+
+
 
 ### Screen Archetypes
 
