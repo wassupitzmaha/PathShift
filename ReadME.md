@@ -119,7 +119,7 @@ Customer Segments:
 - Analysis → Home
 
 
-## Wireframes
+## Wireframe
 <img src="./pictures/wireframe.png" width=600>
 
 ## Schema 
