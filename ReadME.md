@@ -34,7 +34,7 @@ Customer Segments:
 
 
 #### Problems Indentified
-##### Lack of data-driven tools to show real-life outcomes of majors.
+- Lack of data-driven tools to show real-life outcomes of majors.
 
 
 ##### Mismatch between expectations and post-graduation realities.
