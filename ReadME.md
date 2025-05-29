@@ -142,12 +142,13 @@ Customer Segments:
 
 <img src="./pictures/homepage.png" width=600>
 
-### The Analysis Dropdown that shows all of the analyses
+### The Analysis Dropdown that shows all of the analyses:
+
 <img src="./pictures/analysisdropdown.png" width=600>
 
 
 
-##UI Progress
+### UI Progress
 
  - Home layout created with buttons for majors
 
