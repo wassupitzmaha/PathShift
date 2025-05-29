@@ -27,7 +27,7 @@ Customer Segments:
 - High school seniors
 
 
-- First- and second-year college students
+- First and second-year college students
 
 
 - Parents/guardians supporting students' academic decisions
