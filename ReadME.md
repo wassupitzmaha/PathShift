@@ -65,8 +65,6 @@ Customer Segments:
 
 ## Product Spec
 
-Required Must-Have User Stories: 
-
 - Users can view textual career analysis for 5 different majors.
 
 
