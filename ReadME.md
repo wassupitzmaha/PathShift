@@ -136,22 +136,14 @@ Users can view textual career analysis for 5 different majors.
  → Returns career match data for a selected major
 
 ## Video Walkthrough
-### Playback - Use audio player to playback file.
-<a href="https://imgflip.com/gif/40ksh3"><img src="https://i.imgflip.com/40ksh3.gif" title=""/></a>
+
 ### Homepage: View the purpose and details of the project
 
 <img src="./pictures/homepage.png" width=600>
 
-### Speed Change - Change speed of audio from .25 to 2 times the original speed.
-<a href="https://imgflip.com/gif/40ktcw"><img src="https://i.imgflip.com/40ktcw.gif" title=""/></a>
-### Bandwidth Filter - Filter desired frequencies.
-<a href="https://imgflip.com/gif/40mk1d"><img src="https://i.imgflip.com/40mk1d.gif" title=""/></a>
-### Waveform View - View waveform of audio synchronized with playback.
-<a href="https://imgflip.com/gif/40mk93"><img src="https://i.imgflip.com/40mk93.gif" title=""/></a>
-### A/B Looping - Loop selected section of audio.
-<a href="https://imgflip.com/gif/40mkdd"><img src="https://i.imgflip.com/40mkdd.gif" title=""/></a>
-### Pitch Shift - Shift pitch up or down up to 24 semi-tones.
-<a href="https://imgflip.com/gif/40mkk2"><img src="https://i.imgflip.com/40mkk2.gif" title=""/></a>
+### The Analysis Dropdown that shows all of the analysis
+<img src="./pictures/analysisdropdown.png" width=600>
+
 
 ## UI Progress
 <a href="https://imgflip.com/gif/3vrn7e"><img src="https://i.imgflip.com/3vrn7e.gif" title=""/></a>
