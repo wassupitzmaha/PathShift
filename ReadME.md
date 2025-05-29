@@ -37,9 +37,9 @@ Customer Segments:
 - Lack of data-driven tools to show real-life outcomes of majors.
 
 
-##### Mismatch between expectations and post-graduation realities.
+- Mismatch between expectations and post-graduation realities.
 
-##### Parents often hold outdated assumptions about career paths.
+- Parents often hold outdated assumptions about career paths.
 
 
 #### Interview Questions
