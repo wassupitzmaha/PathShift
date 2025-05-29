@@ -1,4 +1,5 @@
-# Recital: Music speed changer and transcriber
+# PathShift: Turn Your Major Into A Mission
+
 ## Table of Contents
 1. [Overview](#Overview)
 1. [Product Spec](#Product-Spec)
@@ -141,18 +142,9 @@ Users can view textual career analysis for 5 different majors.
 
 <img src="./pictures/homepage.png" width=600>
 
-### The Analysis Dropdown that shows all of the analysis
+### The Analysis Dropdown that shows all of the analyses
 <img src="./pictures/analysisdropdown.png" width=600>
 
-
-## UI Progress
-<a href="https://imgflip.com/gif/3vrn7e"><img src="https://i.imgflip.com/3vrn7e.gif" title=""/></a>
-
-<a href="https://imgflip.com/gif/3x410e"><img src="https://i.imgflip.com/3x410e.gif" title=""/></a>
-
-<a href="https://imgflip.com/gif/3x5v89"><img src="https://i.imgflip.com/3x5v89.gif" title=""/></a>
-
-<a href="https://imgflip.com/gif/3xk9j0"><img src="https://i.imgflip.com/3xk9j0.gif" title=""/></a>
 
 
 ##UI Progress
