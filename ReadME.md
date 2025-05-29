@@ -78,7 +78,7 @@ Customer Segments:
 
 - Users can access this functionality through a clear navigation UI.
 
-### User Stories (Required and Optional)
+### User Stories
 - User must select an analysis type before generating a visualization.
 
 - If no selection is made, don't update the page to any analysis and keep user in the homepage. 
