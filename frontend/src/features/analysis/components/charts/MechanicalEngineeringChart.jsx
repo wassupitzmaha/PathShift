@@ -5,7 +5,7 @@ import { Chart as ChartJS, ArcElement, Tooltip, Legend } from 'chart.js';
 ChartJS.register(ArcElement, Tooltip, Legend);
 
 const PieChart = () => {
-  const sliceA = { size: 373, color: 'blue' };
+  const sliceA = { size: 767, color: 'blue' };
   const sliceB = { size: 3875, color: 'green' };
   const total = sliceA.size + sliceB.size;
 
