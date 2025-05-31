@@ -46,7 +46,7 @@ requestHandler.get("/api/v1/MechanicalEngineers", async (req, res) => {
               /
               COUNT(*) FILTER (WHERE field_of_study LIKE '%Mechanical Engineering%')
             , 2)
-        END AS percent_mechanical_or_software_developers
+        END AS percent_in_field
       FROM career_main_info;
     `);
 
@@ -58,7 +58,7 @@ requestHandler.get("/api/v1/MechanicalEngineers", async (req, res) => {
     const result = {
       mechanical_engineering_graduates: Number(row.total_me),
       currently_mechanical_engineers: Number(row.actual_me),
-      percent_in_field: Number(row.percent_mechanical_engineers) // Ensures it's a number, not string
+      percent_in_field: Number(row.percent_in_field) // Ensures it's a number, not string
     };
 
     // Step 3: Send the formatted result as JSON
