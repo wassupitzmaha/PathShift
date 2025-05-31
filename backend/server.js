@@ -29,21 +29,25 @@ requestHandler.get("/api/v1/MechanicalEngineers", async (req, res) => {
   try {
     const dbResponse = await db.query(`
       SELECT 
-  COUNT(*) FILTER (WHERE field_of_study LIKE '%Mechanical Engineering%') AS total_me,
-  COUNT(*) FILTER (WHERE field_of_study LIKE '%Mechanical Engineering%' 
-                   AND current_occupation = 'Mechanical Engineer') AS actual_me,
-  CASE 
-    WHEN COUNT(*) FILTER (WHERE field_of_study LIKE '%Mechanical Engineering%') = 0 THEN 0
-    ELSE
-      ROUND(
-        100.0 * 
-        COUNT(*) FILTER (WHERE field_of_study LIKE '%Mechanical Engineering%' 
-                         AND current_occupation = 'Mechanical Engineer')
-        /
-        COUNT(*) FILTER (WHERE field_of_study LIKE '%Mechanical Engineering%')
-      , 2)
-  END AS percent_mechanical_engineers
-FROM career_main_info;
+        COUNT(*) FILTER (WHERE field_of_study LIKE '%Mechanical Engineering%') AS total_me,
+        COUNT(*) FILTER (
+          WHERE field_of_study LIKE '%Mechanical Engineering%' 
+          AND current_occupation IN ('Mechanical Engineer', 'Software Developer')
+        ) AS actual_me,
+        CASE 
+          WHEN COUNT(*) FILTER (WHERE field_of_study LIKE '%Mechanical Engineering%') = 0 THEN 0
+          ELSE
+            ROUND(
+              100.0 * 
+              COUNT(*) FILTER (
+                WHERE field_of_study LIKE '%Mechanical Engineering%' 
+                AND current_occupation IN ('Mechanical Engineer', 'Software Developer')
+              )
+              /
+              COUNT(*) FILTER (WHERE field_of_study LIKE '%Mechanical Engineering%')
+            , 2)
+        END AS percent_mechanical_or_software_developers
+      FROM career_main_info;
     `);
 
     
