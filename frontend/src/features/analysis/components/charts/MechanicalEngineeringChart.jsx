@@ -52,7 +52,7 @@ const PieChart = () => {
               marginRight: '10px'
             }} />
             <span>
-              People who actually became Mechanical Engineers: {sliceA.size} ({((sliceA.size / total) * 100).toFixed(2)}%)
+              People who actually did something related to that field: {sliceA.size} ({((sliceA.size / total) * 100).toFixed(2)}%)
             </span>
           </div>
           <div style={{ display: 'flex', alignItems: 'center' }}>
